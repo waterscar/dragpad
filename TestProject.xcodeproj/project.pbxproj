@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC12B4B7140A3C5600A12258 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC12B4B5140A3C5600A12258 /* MainWindow-iPad.xib */; };
 		FC777E23140A324D002CF66D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC777E22140A324D002CF66D /* UIKit.framework */; };
 		FC777E25140A324D002CF66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC777E24140A324D002CF66D /* Foundation.framework */; };
 		FC777E27140A324D002CF66D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC777E26140A324D002CF66D /* CoreGraphics.framework */; };
@@ -36,23 +37,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC12B4B6140A3C5600A12258 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		FC777E1E140A324D002CF66D /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC777E22140A324D002CF66D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC777E24140A324D002CF66D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC777E26140A324D002CF66D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FC777E2A140A324D002CF66D /* TestProject-Info.plist */ = {isa = PBXFileReference; path = "TestProject-Info.plist"; sourceTree = "<group>"; };
+		FC777E2A140A324D002CF66D /* TestProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProject-Info.plist"; sourceTree = "<group>"; };
 		FC777E2C140A324D002CF66D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC777E2E140A324D002CF66D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC777E30140A324D002CF66D /* TestProject-Prefix.pch */ = {isa = PBXFileReference; path = "TestProject-Prefix.pch"; sourceTree = "<group>"; };
-		FC777E31140A324D002CF66D /* TestProjectAppDelegate.h */ = {isa = PBXFileReference; path = TestProjectAppDelegate.h; sourceTree = "<group>"; };
+		FC777E30140A324D002CF66D /* TestProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestProject-Prefix.pch"; sourceTree = "<group>"; };
+		FC777E31140A324D002CF66D /* TestProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProjectAppDelegate.h; sourceTree = "<group>"; };
 		FC777E32140A324D002CF66D /* TestProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectAppDelegate.m; sourceTree = "<group>"; };
 		FC777E35140A324D002CF66D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		FC777E37140A324D002CF66D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		FC777E37140A324D002CF66D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		FC777E38140A324D002CF66D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FC777E3B140A324D002CF66D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		FC777E42140A324D002CF66D /* TestProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC777E43140A324D002CF66D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		FC777E4C140A324D002CF66D /* TestProjectTests-Info.plist */ = {isa = PBXFileReference; path = "TestProjectTests-Info.plist"; sourceTree = "<group>"; };
+		FC777E4C140A324D002CF66D /* TestProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProjectTests-Info.plist"; sourceTree = "<group>"; };
 		FC777E4E140A324D002CF66D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC777E50140A324D002CF66D /* TestProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProjectTests.h; sourceTree = "<group>"; };
 		FC777E52140A324D002CF66D /* TestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectTests.m; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC12B4B4140A3C5400A12258 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FC12B4B5140A3C5600A12258 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		FC777E13140A324D002CF66D = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 		FC777E28140A324D002CF66D /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				FC12B4B4140A3C5400A12258 /* iPad */,
 				FC777E31140A324D002CF66D /* TestProjectAppDelegate.h */,
 				FC777E32140A324D002CF66D /* TestProjectAppDelegate.m */,
 				FC777E34140A324D002CF66D /* MainWindow.xib */,
@@ -230,6 +241,7 @@
 				FC777E2D140A324D002CF66D /* InfoPlist.strings in Resources */,
 				FC777E36140A324D002CF66D /* MainWindow.xib in Resources */,
 				FC777E3C140A324D002CF66D /* RootViewController.xib in Resources */,
+				FC12B4B7140A3C5600A12258 /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +302,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FC12B4B5140A3C5600A12258 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC12B4B6140A3C5600A12258 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
 		FC777E2B140A324D002CF66D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -374,7 +394,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestProject/TestProject-Prefix.pch";
 				INFOPLIST_FILE = "TestProject/TestProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,7 +407,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestProject/TestProject-Prefix.pch";
 				INFOPLIST_FILE = "TestProject/TestProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +467,7 @@
 				FC777E58140A324D002CF66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC777E59140A324D002CF66D /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +476,7 @@
 				FC777E5B140A324D002CF66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
